@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>HTML Use</title>
+    <meta charset="UTF-8">
+    <meta name="author" content="Coder">
+    <meta name="description" content="This web page use only HTML">
+    <meta name="keywords" content="HTML, Project, Attribute, Elements">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="refresh" content="30">
+    <style></style>
+    <script></script>
+    <base href="" target="_blank">
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+  </head>
+  <body>
+    <script></script>
+    <noscript> this text will be shown if Java script is not found</noscript>
+    <template></template>
+    
+    <main>
+    <!--Headings-->
+    <header>
+      <h3>Heading Header</h3>
+      <h1>This is Heading 1</h1>
+      <h2>This is heading 2</h2>
+      <h3>This is heading 3</h3>
+      <h4>This is heading 4</h4>
+      <h5>This is heading 5</h5>
+      <h6>This is heading 6</h6>
+    </header>
+    
+    <!--Text Formatting-->
+    <section>
+      <br><hr>
+      <h3>Text Formatting using &lt;p&gt; element Section</h3>
+      <p><b> Bold </b><strong> Strong </strong><i> Italic </i><em> Emphasized </em><small> Small </small><sub> Subscripted </sub><sup> Superscripted </sup><ins> Inserted </ins><del> Deleted </del><mark> Marked/Highlighted </mark></p>
+    </section>
+    
+    <!--pre element-->
+    <section>
+      <br><hr>
+      <h3>Using &lt;pre&gt; Element Section</h3>
+      <pre>
+      This content is written 
+      using pre element.
+      </pre>
+    </section>
+    
+    <!--citation and Quotation-->
+    <section>
+      <br><hr>
+      <h3>Citation and Quotation Section</h3>
+      <p>
+        <blockquote cite="">This is blockquoted</blockquote>
+        <q>This is quoted</q>
+        <abbr title="Acronym or Abbreviation">AoA</abbr>
+        <address>For address or contact information using address</address>
+        <cite>For title of Work using cite</cite>
+        <bdo dir="rtl">You can understand this; using bdo</bdo>
+      </p>
+    </section>
+    
+    <!--computer code element-->
+    <section>
+      <br><hr>
+      <h3>Computer Code Element Section</h3>
+      <kbd>(Keyboard Input using kbd)</kbd>
+      <samp>(Program Output using samp)</samp>
+      <code>(Computer Code using code)</code>
+      <var>(Variables using var)</var>
+    </section>
+    
+    <!--video audio navigation-->
+    <nav>
+      <br><hr>
+      <h3>Nav</h3>
+      <a href="#videosec">click here to go to video section </a>
+      <a href="#audiosec">click here to go to video section </a>
+    </nav>
+    
+    <article>
+      <br><hr>
+      <h3>Article</h3>
+      This content is written inside &lt;article&gt; element
+    </article>
+    
+    <aside>
+      <br><hr>
+      <h3>Aside</h3>
+      This content is written inside &lt;aside&gt; element
+    </aside>
+    
+    <details>
+      <br><hr>
+      <h3>Details</h3>
+      <summary>This content is written inside &lt;summary&gt; in &lt;details&gt; element</summary>
+      This content is written inside &lt;detailss&gt; element
+    </details>
+    
+    
+    <figure>
+      <br><hr>
+      <h3>Picture Figure</h3>
+      <figcaption>figure caption will appear here</figcaption>
+      <picture>
+        <source srcset="images/pic1.png" media="(min-width:780px)" width="300" height="300">
+        <source srcset="images/pic2.png" media="(min-width:1024px)" width="300" height="300">
+        <img src="images/pic3.jpg" alt="Panda" width="300" height="300">
+      </picture>
+      
+      <br><hr>
+      <h3>Image Figure</h3>
+      <img src="images/pic4.jpg" alt="Broken"  width="300" height="300">
+      
+      <img src="hello.png" alt="If image could not load, text will appear">
+      
+      <br><hr>
+      <h3>Image Maps Figure</h3>
+      <img src="images/pic7.png" usemap="#map1">
+      
+      <map name="map1">
+      <area shape="circle" coords="63,145,44" href="https://google.com" alt="Circle"/>
+      <area shape="rect" coords="20,81,180,214" href="https://amazon.com" alt="Rectangle" />
+      <area shape="poly" coords="237,86,256,87,259,92,259,101,217,109,252,113,250,119,216,122,217,126,219,130,261,133,263,135,265,137,227,140,270,144,234,150,272,157,230,161,270,163" href="https://flipkart.com" alt="Random Shape" />
+      </map>
+    </figure>
+    
+    <!--Table-->
+    <section>
+      <br><hr>
+      <h3>Table Section</h3>
+      <table>
+        <caption>Table1 [Table Caption appear Here]</caption>
+        <colgroup>
+          <col span="2">
+        </colgroup>
+        <tr>
+          <th colspan="2">colspan</th>
+          <th>Tue</th>
+          <th>Wed</th>
+          <th>Thur</th>
+        </tr>
+        <tr>
+          <td>A</td>
+          <td>B</td>
+          <td>C</td>
+          <td>D</td>
+          <td>E</td>
+        </tr>
+        <tr>
+          <td>1</td>
+          <td rowspan="2">rowspan</td>
+          <td>3</td>
+          <td>4</td>
+          <td>5</td>
+        </tr>
+        <tr>
+          <td>W</td>
+          <td>X</td>
+          <td>Y</td>
+          <td>Z</td>
+        </tr>
+      </table>
+    </section>
+    
+    <!--List-->
+    <section>
+      <br><hr>
+      <h3>List Section</h3>
+      <ul>
+        <li>Unordered List 1</li>
+        <li>Unordered List 2</li>
+        <li>Unordered List 3</li>
+        <li>Unordered List 4</li>
+      </ul>
+      
+      <ol type="i">
+        <li>Ordered List 1</li>
+        <li>Ordered List 2</li>
+        <li>Ordered List 3</li>
+        <li>Ordered List 4</li>
+      </ol>
+      
+      <ol type="1" start="10">
+        <li>Ordered List 1</li>
+        <li>Ordered List 2</li>
+        <li>Ordered List 3</li>
+        <li>Ordered List 4</li>
+      </ol>
+      
+      <dl>
+        <dt>Discription Term 1st</dt>
+        <dd>Discription List 1</dd>
+        <dd>Discription List 2</dd>
+        <dt>Discription Term2nd</dt>
+        <dd>Discription List 1</dd>
+        <dd>Discription List 2</dd>
+      </dl>
+    </section>
+    
+    <!--Forms-->
+    <section>
+      <br><hr>
+      <h3>Forms Section</h3>
+      <form action="#" target="_self" method="post" autocomplete="off">
+        
+        <fieldset><legend>These are under field set(This text is written in legend element)</legend>
+        <label>Drop Down using select:
+        <select name="dd1">
+          <option>Option 1</option>
+          <option selected>Option 2 pre-selected due to selected attribute</option>
+          <option>Option 3</option>
+        </select>
+        </label>
+        
+        <label>Drop Down using select with multiple attribute:
+        <select multiple name="mdd1">
+          <option>Option 1</option>
+          <option selected>Option 2</option>
+          <option>Option 3</option>
+        </select>
+        </label>
+        </fieldset>
+        
+        <textarea rows="10" cols="10" name="textarea">Text area with 10rows and 10cols</textarea>
+        
+        <button type="button">Button</button>
+        
+        <input list="dl1" name="dl1">
+        <datalist id="dl1">
+          <option >Option 1</option>
+          <option>Option 2</option>
+          <option>Option 3</option>
+        </datalist>
+      
+        <input type="text" placeholder="Text" required>
+        <input type="password" placeholder="Password-ABC123" pattern="ABC123">
+        <label><input type="radio" name="radio" value=radio1>Radio 1</label>
+        <label><input type="radio" name="radio" value="radio2">Radio 2</label>
+        <label><input type="checkbox" name="Checkbox" value="checkbox1" >Checkbox 1</label>
+        <label><input type="checkbox" bam name="Checkbox" value="checkbox2">Checkbox 2</label>
+        <input type="color" name="color">
+        <input type="date" placeholder="date" name="date">
+        <input type="datetime-local" name="datetime-local">
+        <input type="email" placeholder="Email. Autofocus" autofocus multiple name="Email">
+        <input type="image" height="80" width="100" src="images/pic5.jpg">
+        <input type="file" multiple name="file">
+        <input type="hidden" name="hidden data" value="This data is hidden yet submitted">
+        <input type="month" name="month">
+        <input type="number" placeholder="Number" step="2" name="number">
+        <input type="range" name="range">
+        <input type="search" placeholder="Search">
+        <input type="tel" placeholder="Telephone" name="tel">
+        <input type="time" name="time">
+        <input type="url" placeholder="URL" name="url">
+        <input type="week" name="week">
+        <input type="submit">
+        <input type="reset">
+        
+        <output></output>
+        
+      </form>
+    </section>
+    
+    <!--SVG graphic-->
+    <section>
+    <br><hr>
+    <h3>SVG Graphic Section</h3>
+
+    <svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg">
+
+      <!-- Sky background -->
+      <rect x="0" y="0" width="400" height="300" fill="#0b1d3a" />
+
+      <!-- Moon -->
+      <circle cx="320" cy="60" r="30" fill="#fefcd7" />
+
+      <!-- Mountains -->
+      <polygon points="0,250 100,100 200,250" fill="#3a4a66" />
+      <polygon points="100,250 200,120 300,250" fill="#4c5a77" />
+      <polygon points="200,250 300,130 400,250" fill="#5e6c88" />
+
+      <!-- Ground -->
+      <rect x="0" y="250" width="400" height="50" fill="#1a2a40" />
+
+      <!-- Water reflection of the moon -->
+      <ellipse cx="320" cy="270" rx="25" ry="10" fill="#dcdcc2" />
+
+      <!-- Stars -->
+      <circle cx="50" cy="30" r="2" fill="white" />
+      <circle cx="150" cy="60" r="1.5" fill="white" />
+      <circle cx="90" cy="80" r="1" fill="white" />
+      <circle cx="250" cy="40" r="1.5" fill="white" />
+      <circle cx="380" cy="20" r="1.2" fill="white" />
+
+      <!-- Text -->
+      <text x="200" y="290" fill="white" font-size="12" text-anchor="middle">Drawn using pure HTML & SVG by ChatGPT</text>
+    </svg>
+    <canvas></canvas>
+    </section>
+    
+    <!--Canvas-->
+    <section>
+    <br><hr>
+    <h3>Canvas Section</h3>
+    <canvas id="myCanvas" width="200" height="100"></canvas>
+    </section>
+
+    <!--Progress and Meter-->
+    <section>
+      <br><hr>
+    <h3>Progress and Meter Section</h3>
+    <label>Progress: <progress value="30" max="100"></progress></label><br>
+    <label>Meter: <meter value="0.7">70%</meter></label>
+    </section>
+
+    <!--Time and Data-->
+    <section>
+      <br><hr>
+    <h3>Time and Data Section</h3>
+    <p>The event will start at <time datetime="2025-07-14T10:00">10 AM, July 14, 2025</time>.</p>
+    <p>Product: <data value="P00123">Cool Widget</data></p>
+    </section>
+    
+    <!--Video-->
+    <section>
+      <br><hr>
+      <h3>Video Section</h3>
+      <video id="videosec" width="300" height="auto" controls>
+        <source src="images/video1.mp4" type="video/mp4">
+      </video>
+      <video width="300" height="auto" autoplay muted>
+        <source src="images/video2.mp4" type="video/mp4">
+        Your browser do not support Video tag
+      </video>
+    </section>
+    
+    <!--Audio-->
+    <section>
+      <br><hr>
+      <h3>Audio Section</h3>
+      <audio id="audiosec" width="300" height="auto" controls>
+        <source src="images/music1.mp3" type="audio/mp3">
+      Your browser do not support Audio tag
+      </audio>
+    </section>
+    
+    <!--Plug-ins-->
+    <section>
+      <br><hr>
+      <h3>Plug-ins</h3>
+      <object width="300" height="500" data="images/object.pdf" type="application/pdf">
+      </object>
+      
+      <embed width="300" height="500" src="images/embed.pdf" type="application/pdf">
+    </section>
+    
+    <!--Youtube-->
+    <section>
+      <br><hr>
+      <h3>Youtube Video Section</h3>
+      <iframe width="300" height="530"
+      src="https://www.youtube.com/embed/LV1902i2K5U?autoplay=0&controls=1&mute=0" title="YouTube video" frameborder="0">
+      </iframe>
+    </section>
+    
+    <!--Iframe-->
+    <section>
+      <br><hr>
+      <h3>Iframe Section</h3>
+      <iframe src="page.html" title="Title appear here" name="frame" width="300" height="400"></iframe>
+      <a href="another.html" target="frame">Click Here to open another page in Iframe</a>
+    </section>
+    
+    <footer>
+      <br><hr>
+      <h3>Footer</h3>
+      This content is written inside &lt; footer&gt; element
+    </footer>
+    
+    </main> 
+  </body>
+</html>
